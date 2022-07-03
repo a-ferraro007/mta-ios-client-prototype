@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA37E6C228714F8F00D62FE2 /* transit_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37E6C128714F8F00D62FE2 /* transit_appApp.swift */; };
+		EA37E6C428714F8F00D62FE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37E6C328714F8F00D62FE2 /* ContentView.swift */; };
+		EA37E6C628714F9100D62FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA37E6C528714F9100D62FE2 /* Assets.xcassets */; };
+		EA37E6C928714F9100D62FE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA37E6C828714F9100D62FE2 /* Preview Assets.xcassets */; };
+		EA37E6D328714F9100D62FE2 /* transit_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37E6D228714F9100D62FE2 /* transit_appTests.swift */; };
+		EA37E6DD28714F9100D62FE2 /* transit_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37E6DC28714F9100D62FE2 /* transit_appUITests.swift */; };
+		EA37E6DF28714F9100D62FE2 /* transit_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37E6DE28714F9100D62FE2 /* transit_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA37E6CF28714F9100D62FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA37E6B628714F8F00D62FE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA37E6BD28714F8F00D62FE2;
+			remoteInfo = "transit-app";
+		};
+		EA37E6D928714F9100D62FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA37E6B628714F8F00D62FE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA37E6BD28714F8F00D62FE2;
+			remoteInfo = "transit-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA37E6BE28714F8F00D62FE2 /* transit-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "transit-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA37E6C128714F8F00D62FE2 /* transit_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transit_appApp.swift; sourceTree = "<group>"; };
+		EA37E6C328714F8F00D62FE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA37E6C528714F9100D62FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA37E6C828714F9100D62FE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA37E6CE28714F9100D62FE2 /* transit-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "transit-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA37E6D228714F9100D62FE2 /* transit_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transit_appTests.swift; sourceTree = "<group>"; };
+		EA37E6D828714F9100D62FE2 /* transit-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "transit-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA37E6DC28714F9100D62FE2 /* transit_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transit_appUITests.swift; sourceTree = "<group>"; };
+		EA37E6DE28714F9100D62FE2 /* transit_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transit_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA37E6BB28714F8F00D62FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37E6CB28714F9100D62FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37E6D528714F9100D62FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA37E6B528714F8F00D62FE2 = {
+			isa = PBXGroup;
+			children = (
+				EA37E6C028714F8F00D62FE2 /* transit-app */,
+				EA37E6D128714F9100D62FE2 /* transit-appTests */,
+				EA37E6DB28714F9100D62FE2 /* transit-appUITests */,
+				EA37E6BF28714F8F00D62FE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA37E6BF28714F8F00D62FE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA37E6BE28714F8F00D62FE2 /* transit-app.app */,
+				EA37E6CE28714F9100D62FE2 /* transit-appTests.xctest */,
+				EA37E6D828714F9100D62FE2 /* transit-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA37E6C028714F8F00D62FE2 /* transit-app */ = {
+			isa = PBXGroup;
+			children = (
+				EA37E6C128714F8F00D62FE2 /* transit_appApp.swift */,
+				EA37E6C328714F8F00D62FE2 /* ContentView.swift */,
+				EA37E6C528714F9100D62FE2 /* Assets.xcassets */,
+				EA37E6C728714F9100D62FE2 /* Preview Content */,
+			);
+			path = "transit-app";
+			sourceTree = "<group>";
+		};
+		EA37E6C728714F9100D62FE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA37E6C828714F9100D62FE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA37E6D128714F9100D62FE2 /* transit-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA37E6D228714F9100D62FE2 /* transit_appTests.swift */,
+			);
+			path = "transit-appTests";
+			sourceTree = "<group>";
+		};
+		EA37E6DB28714F9100D62FE2 /* transit-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA37E6DC28714F9100D62FE2 /* transit_appUITests.swift */,
+				EA37E6DE28714F9100D62FE2 /* transit_appUITestsLaunchTests.swift */,
+			);
+			path = "transit-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA37E6BD28714F8F00D62FE2 /* transit-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA37E6E228714F9100D62FE2 /* Build configuration list for PBXNativeTarget "transit-app" */;
+			buildPhases = (
+				EA37E6BA28714F8F00D62FE2 /* Sources */,
+				EA37E6BB28714F8F00D62FE2 /* Frameworks */,
+				EA37E6BC28714F8F00D62FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "transit-app";
+			productName = "transit-app";
+			productReference = EA37E6BE28714F8F00D62FE2 /* transit-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA37E6CD28714F9100D62FE2 /* transit-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA37E6E528714F9100D62FE2 /* Build configuration list for PBXNativeTarget "transit-appTests" */;
+			buildPhases = (
+				EA37E6CA28714F9100D62FE2 /* Sources */,
+				EA37E6CB28714F9100D62FE2 /* Frameworks */,
+				EA37E6CC28714F9100D62FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA37E6D028714F9100D62FE2 /* PBXTargetDependency */,
+			);
+			name = "transit-appTests";
+			productName = "transit-appTests";
+			productReference = EA37E6CE28714F9100D62FE2 /* transit-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA37E6D728714F9100D62FE2 /* transit-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA37E6E828714F9100D62FE2 /* Build configuration list for PBXNativeTarget "transit-appUITests" */;
+			buildPhases = (
+				EA37E6D428714F9100D62FE2 /* Sources */,
+				EA37E6D528714F9100D62FE2 /* Frameworks */,
+				EA37E6D628714F9100D62FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA37E6DA28714F9100D62FE2 /* PBXTargetDependency */,
+			);
+			name = "transit-appUITests";
+			productName = "transit-appUITests";
+			productReference = EA37E6D828714F9100D62FE2 /* transit-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA37E6B628714F8F00D62FE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EA37E6BD28714F8F00D62FE2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EA37E6CD28714F9100D62FE2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EA37E6BD28714F8F00D62FE2;
+					};
+					EA37E6D728714F9100D62FE2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EA37E6BD28714F8F00D62FE2;
+					};
+				};
+			};
+			buildConfigurationList = EA37E6B928714F8F00D62FE2 /* Build configuration list for PBXProject "transit-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA37E6B528714F8F00D62FE2;
+			productRefGroup = EA37E6BF28714F8F00D62FE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA37E6BD28714F8F00D62FE2 /* transit-app */,
+				EA37E6CD28714F9100D62FE2 /* transit-appTests */,
+				EA37E6D728714F9100D62FE2 /* transit-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA37E6BC28714F8F00D62FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA37E6C928714F9100D62FE2 /* Preview Assets.xcassets in Resources */,
+				EA37E6C628714F9100D62FE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37E6CC28714F9100D62FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37E6D628714F9100D62FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA37E6BA28714F8F00D62FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA37E6C428714F8F00D62FE2 /* ContentView.swift in Sources */,
+				EA37E6C228714F8F00D62FE2 /* transit_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37E6CA28714F9100D62FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA37E6D328714F9100D62FE2 /* transit_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37E6D428714F9100D62FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA37E6DF28714F9100D62FE2 /* transit_appUITestsLaunchTests.swift in Sources */,
+				EA37E6DD28714F9100D62FE2 /* transit_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA37E6D028714F9100D62FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA37E6BD28714F8F00D62FE2 /* transit-app */;
+			targetProxy = EA37E6CF28714F9100D62FE2 /* PBXContainerItemProxy */;
+		};
+		EA37E6DA28714F9100D62FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA37E6BD28714F8F00D62FE2 /* transit-app */;
+			targetProxy = EA37E6D928714F9100D62FE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA37E6E028714F9100D62FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA37E6E128714F9100D62FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA37E6E328714F9100D62FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"transit-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 23DH95W5V4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mta.transit-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA37E6E428714F9100D62FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"transit-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 23DH95W5V4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mta.transit-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA37E6E628714F9100D62FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23DH95W5V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mta.transit-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transit-app.app/transit-app";
+			};
+			name = Debug;
+		};
+		EA37E6E728714F9100D62FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23DH95W5V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mta.transit-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transit-app.app/transit-app";
+			};
+			name = Release;
+		};
+		EA37E6E928714F9100D62FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23DH95W5V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mta.transit-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "transit-app";
+			};
+			name = Debug;
+		};
+		EA37E6EA28714F9100D62FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23DH95W5V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mta.transit-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "transit-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA37E6B928714F8F00D62FE2 /* Build configuration list for PBXProject "transit-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA37E6E028714F9100D62FE2 /* Debug */,
+				EA37E6E128714F9100D62FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA37E6E228714F9100D62FE2 /* Build configuration list for PBXNativeTarget "transit-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA37E6E328714F9100D62FE2 /* Debug */,
+				EA37E6E428714F9100D62FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA37E6E528714F9100D62FE2 /* Build configuration list for PBXNativeTarget "transit-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA37E6E628714F9100D62FE2 /* Debug */,
+				EA37E6E728714F9100D62FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA37E6E828714F9100D62FE2 /* Build configuration list for PBXNativeTarget "transit-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA37E6E928714F9100D62FE2 /* Debug */,
+				EA37E6EA28714F9100D62FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA37E6B628714F8F00D62FE2 /* Project object */;
+}
